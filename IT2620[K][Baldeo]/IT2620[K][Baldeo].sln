@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2024
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "IT2620[K][Baldeo]", "IT2620[K][Baldeo]\IT2620[K][Baldeo].vbproj", "{ADEF13F4-5FD6-453F-9243-F5DEDB526396}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ADEF13F4-5FD6-453F-9243-F5DEDB526396}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADEF13F4-5FD6-453F-9243-F5DEDB526396}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADEF13F4-5FD6-453F-9243-F5DEDB526396}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADEF13F4-5FD6-453F-9243-F5DEDB526396}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CCF0DA11-5BCC-49ED-8ED5-CF9E5A37D39D}
+	EndGlobalSection
+EndGlobal
