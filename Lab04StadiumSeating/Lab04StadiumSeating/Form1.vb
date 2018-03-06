@@ -12,7 +12,7 @@
         decClassC = CDec(TextBox3.Text)
         Label9.Text = decClassC * 9
 
-        Label11.Text = decClassA + decClassB + decClassC
+        Label11.Text = CDec(Label7.Text) + CDec(Label8.Text) + CDec(Label9.Text)
 
 
 
