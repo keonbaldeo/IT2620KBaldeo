@@ -7,7 +7,7 @@
         Try
             userInput = InputBox("Enter a value", "Provide a value", "10")
             If (Integer.TryParse(userInput, intcount) = False) Then
-                MessageBox.Show("Donot enter a string. Enter an integer")
+                MessageBox.Show("Do not enter a string. Enter an integer")
             Else
                 For i = 1 To intcount
                     sumcount = sumcount + i

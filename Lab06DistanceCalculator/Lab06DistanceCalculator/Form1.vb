@@ -4,25 +4,31 @@
         Dim time As Decimal
         Dim distance As Decimal
         Dim sumtotal As Decimal
-        speed = InputBox("In mph", "Input Speed")
-        time = InputBox("In hours", "Time")
+        Try
 
-        distance = speed * time
-        ListBox1.Items.Add("Vehicle Speed" & " " & speed & " " & "MPH")
-        ListBox1.Items.Add("Time Traveled" & " " & time & " " & "Hours")
+            speed = InputBox("In mph", "Input Speed")
+            time = InputBox("In hours", "Time")
 
-        ListBox1.Items.Add("Hours" & "   " & "Distance Traveled")
-        ListBox1.Items.Add("_____________________________")
+            distance = speed * time
+            ListBox1.Items.Add("Vehicle Speed" & " " & speed & " " & "MPH")
+            ListBox1.Items.Add("Time Traveled" & " " & time & " " & "Hours")
 
-        For i = 1 To time
-            sumtotal = sumtotal + speed
-            ListBox1.Items.Add(i & "            " & sumtotal)
-
-        Next
-
-        ListBox1.Items.Add("Total Distance" & " " & distance)
+            ListBox1.Items.Add("Hours" & "   " & "Distance Traveled")
+            ListBox1.Items.Add("_____________________________")
 
 
+            For i = 1 To time
+                sumtotal = sumtotal + speed
+                ListBox1.Items.Add(i & "            " & sumtotal)
+
+            Next
+
+            ListBox1.Items.Add("Total Distance" & " " & distance)
+
+        Catch ex As Exception
+            MessageBox.Show("Numbers only")
+
+        End Try
 
     End Sub
 
