@@ -39,7 +39,7 @@
                 End If
 
             Else
-                MessageBox.Show("You must register in order to participate")
+                MessageBox.Show("You must register in order to participate.")
 
             End If
 
