@@ -13,6 +13,7 @@ Public Class Form1
         TextBox7.Clear()
         TextBox8.Clear()
         ComboBox1.SelectedIndex = -1
+
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
